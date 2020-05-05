@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'next/link';
+import Link  from 'next/link';
 import clsx from 'clsx';
 import moment from 'moment';
 import PerfectScrollbar from 'react-perfect-scrollbar';
@@ -371,7 +371,7 @@ function Results({ className, invoices, ...rest }) {
                             variant="subtitle2"
                             color="textPrimary"
                             underline="none"
-                            to="#"
+                            href="#"
                           >
                             {invoice.customer.name}
                           </Link>
