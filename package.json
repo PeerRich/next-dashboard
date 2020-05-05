@@ -5,10 +5,18 @@
   "dependencies": {
     "@material-ui/core": "latest",
     "@material-ui/icons": "^4.9.1",
+    "axios": "^0.19.2",
+    "axios-mock-adapter": "^1.18.1",
     "clsx": "latest",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-feather": "^2.0.8",
+    "react-perfect-scrollbar": "^1.5.8",
+    "uuid": "^8.0.0"
   },
   "scripts": {
     "dev": "next",
